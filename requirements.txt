@@ -1,0 +1,14 @@
+langchain
+langchain-core
+langserve
+openai
+openrouter
+langchain_google_genai
+google-generativeai
+firebase-admin
+python-dotenv
+fastapi
+uvicorn
+langchain_community
+pydantic
+langchain-openrouter
