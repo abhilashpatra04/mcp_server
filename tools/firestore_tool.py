@@ -85,6 +85,7 @@ import mcp
 import cloudinary
 import cloudinary.uploader
 
+
 from utils.context_utils import extract_text_from_image, extract_text_from_pdf
 from utils.model_loader import get_model_response
 
@@ -183,4 +184,3 @@ async def chat_with_context(conversation_id: str, prompt: str, model: str) -> st
     except Exception as e:
         return f"Error in chat_with_context: {e}"
     
-

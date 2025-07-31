@@ -1,7 +1,7 @@
 import os
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS  # Updated import path
 from utils.context_utils import extract_text_from_pdf
 
 VECTOR_DIR = "vectorstores"
