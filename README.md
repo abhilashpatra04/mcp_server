@@ -240,6 +240,4 @@ The application uses `python-dotenv` to load environment variables from the `.en
 - Implement proper authentication and authorization for production use
 - Consider rate limiting and input validation for production deployment
 
-## License
 
-[Add your license information here]
