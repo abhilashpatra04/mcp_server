@@ -4,7 +4,7 @@ A FastAPI-based backend that provides AI chat functionality with virtual expert 
 
 ## Features
 
-- **Virtual Expert Agents**: SQL, AI/ML, Android, Web Development, DevOps, and Blockchain experts
+- **Virtual Expert Agents**: SQL, AI/ML, Android Development.
 - **Multi-Model Support**: OpenRouter, Gemini, and Groq API integration
 - **File Processing**: PDF text extraction and image OCR
 - **Web Search**: DuckDuckGo search with content extraction
@@ -239,5 +239,6 @@ The application uses `python-dotenv` to load environment variables from the `.en
 - Use environment variables for all sensitive configuration
 - Implement proper authentication and authorization for production use
 - Consider rate limiting and input validation for production deployment
+
 
 
